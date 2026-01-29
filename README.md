@@ -18,3 +18,12 @@ cd aws-ec2-docker-public-url
 ```
 
 ### 2. Start Containers
+```bash
+docker compose up -d --build
+docker ps
+```
+
+### 3. Access Application
+```cpp
+http://<EC2-PUBLIC-IP>
+```
