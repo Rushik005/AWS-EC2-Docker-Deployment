@@ -25,5 +25,12 @@ docker ps
 
 ### 3. Access Application
 ```cpp
+In browser:
 http://<EC2-PUBLIC-IP>
+```
+
+### 4. Restart/Stop
+```bash
+docker compose restart
+docker compose down
 ```
